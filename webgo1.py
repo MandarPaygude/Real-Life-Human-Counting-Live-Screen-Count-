@@ -13,8 +13,8 @@ count_down = 0
 state =0
 
 cap = cv2.VideoCapture("example_01.mp4")
-fourcc = cv2.VideoWriter_fourcc(*'MPEG')
-out = cv2.VideoWriter('example_01.mp4',fourcc, 20.0, (640,480))
+fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
+out = cv2.VideoWriter('example_01.avi',fourcc, 20.0, (640,480))
 
 
 
